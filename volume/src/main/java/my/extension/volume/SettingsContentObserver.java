@@ -4,10 +4,6 @@ import android.database.ContentObserver;
 import android.os.Handler;
 import android.util.Log;
 
-/**
- * Created by NganNTK on 6/30/2017.
- */
-
 public class SettingsContentObserver extends ContentObserver {
     private static final String TAG = "SettingsContentObserver";
 

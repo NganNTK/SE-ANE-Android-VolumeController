@@ -7,10 +7,6 @@ import android.util.Log;
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREExtension;
 
-/**
- * Created by NganNTK on 6/30/2017.
- */
-
 public class VolumeExtension implements FREExtension {
     private static final String TAG = "VolumeExtension";
 
@@ -28,7 +24,7 @@ public class VolumeExtension implements FREExtension {
 
     @Override
     public FREContext createContext(String s) {
-        return null;
+        return new VolumeExtensionContext();
     }
 
     @Override

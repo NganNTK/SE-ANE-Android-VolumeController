@@ -7,10 +7,6 @@ import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 
-/**
- * Created by NganNTK on 6/30/2017.
- */
-
 class SetVolumeFunction implements FREFunction {
     private static final String TAG = "SetVolumeFunction";
 

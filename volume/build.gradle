@@ -31,14 +31,14 @@ dependencies {
     compile files('libs/FlashRuntimeExtensions.jar')
 }
 task deleteJar(type: Delete) {
-    delete 'libs/jars/volumecontroller.jar'
+    delete 'libs/jars/volumenativelib.jar'
 }
 
 task createJar(type: Copy) {
     from('build/intermediates/bundles/default/')
     into('libs/jars/')
     include('classes.jar')
-    rename('classes.jar', 'volumecontroller.jar')
+    rename('classes.jar', 'volumenativelib.jar')
 }
 
 createJar.dependsOn(deleteJar, build)

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VolumeAndroidLib.iml" filepath="$PROJECT_DIR$/VolumeAndroidLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SE-ANE-Android-VolumeController.iml" filepath="$PROJECT_DIR$/SE-ANE-Android-VolumeController.iml" />
+      <module fileurl="file://H:\ANE\SE-ANE-Android-VolumeController\VolumeAndroidLib.iml" filepath="H:\ANE\SE-ANE-Android-VolumeController\VolumeAndroidLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://H:\ANE\SE-ANE-Android-VolumeController\app\app.iml" filepath="H:\ANE\SE-ANE-Android-VolumeController\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/volume/volume.iml" filepath="$PROJECT_DIR$/volume/volume.iml" />
+      <module fileurl="file://H:\ANE\SE-ANE-Android-VolumeController\volume\volume.iml" filepath="H:\ANE\SE-ANE-Android-VolumeController\volume\volume.iml" />
     </modules>
   </component>
 </project>
