@@ -10,3 +10,4 @@
 ## Functions:
 * InitFunction(): hàm này khởi tạo: context cho extension và observation cho sự kiện thay đổi volume
 * SetVolumeFunction(): thay đổi volume thiết bị
+* GetCurrentVolumeFunction(): lấy giá trị volume hiện tại của thiết bị
